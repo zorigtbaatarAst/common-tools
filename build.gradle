@@ -15,13 +15,13 @@ plugins {
     id 'maven-publish'
 }
 
+group = 'mn.astvision'
+version = '0.1.0'
+
 subprojects {
     apply plugin: 'java-library'
     apply plugin: 'io.spring.dependency-management'
     apply plugin: 'io.freefair.lombok'
-
-    group = 'mn.astvision'
-    version = '1.0.0'
 
     repositories {
         mavenCentral()
